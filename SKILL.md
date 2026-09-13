@@ -22,6 +22,44 @@ A self-contained operating doctrine for web design work. It answers three
 questions in order: what am I not allowed to do, which capability should own
 this task, and what makes the result good.
 
+## 0. How to use this pack
+
+**The criteria are mandatory. The tools are not.**
+
+Everything in this pack that describes a *standard* — the standing
+constraints, the scroll law, the craft bar, the typography and motion and
+accessibility requirements — is binding. The work is judged against those
+outcomes regardless of how you got there.
+
+Everything in this pack that names a *specific skill or service* is a map of
+one good way to meet those standards, not a checklist to execute. You are not
+required to invoke every skill listed, or any of them. If you have your own
+capability that reaches the same bar — your own motion knowledge, your own
+component research, your own type sense, your own image generation — use it.
+A skill that is not installed for you is a description of a target, not a
+blocker.
+
+What this means in practice:
+
+- **Do not skip a requirement because the named tool is unavailable.** If
+  there is no animation-review skill in reach, review the motion yourself
+  against the craft bar in section 4. If there is no design-reference
+  connector, do the research with whatever search you have. The bar does not
+  move.
+- **Do not invoke a skill as a ritual.** Reaching for a listed skill you do
+  not need, for a task it does not own, is wasted work. Route by what the task
+  actually requires.
+- **Do not claim a capability you don't have.** If a connector or service is
+  out of reach, say so plainly, state what you used instead, and note any
+  place the result is weaker for it.
+- **Prefer the specialist when you genuinely have it.** These skills exist
+  because they encode more depth than a general pass does. When one is
+  installed and owns the task, it beats improvising.
+
+Read the rest of this file as the contract, and
+`references/resource-map.md` as the equipment list — useful when you have the
+equipment, informative when you don't.
+
 ## 1. Standing constraints
 
 These override convenience. Do not trade them away for a shorter path.
@@ -56,7 +94,9 @@ These override convenience. Do not trade them away for a shorter path.
 ## 2. Routing — check capability before hand-writing
 
 Before any *visual* work — new UI, redesign, styling or polish pass, design
-assets — check in this order rather than improvising what a tool covers:
+assets — check in this order rather than improvising what a tool already
+covers. If nothing in the list is available to you, fall through to your own
+capability and hold the same standard:
 
 1. **Project-scoped skills** in the project's own `.claude/skills` folder.
 2. **Design-direction skill first.** `refero-design` (or the nearest
@@ -69,7 +109,10 @@ Routine bug fixes, logic changes, config edits, and content-only copy edits
 skip this check entirely.
 
 Design-reference research: Refero first, **21st.dev** as the preferred
-fallback. 21st.dev is always in the consideration set, never skipped.
+fallback. 21st.dev is always in the consideration set, never skipped when it
+is available. When neither is reachable, research references by whatever means
+you have — the requirement is grounded visual direction, not a particular
+service.
 
 ## 3. The scroll law
 
@@ -121,5 +164,9 @@ build rather than as a review afterward.
 direction and audit, typography, component libraries, web motion,
 scroll-driven pages, the HyperFrames video family, accessibility, and asset
 generation — with a one-line trigger for each, plus the CLIs and connectors
-that back them. Read it when deciding which tool owns a task, or when handing
-this doctrine to an agent that does not have the toolkit installed.
+that back them.
+
+Read it two ways. If you have the toolkit, it tells you which tool owns a
+task. If you don't, each entry doubles as a specification: it states what that
+capability is responsible for, which is what you then have to deliver by your
+own means. Per section 0, the entries are a map, not a checklist.

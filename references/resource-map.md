@@ -1,10 +1,17 @@
 # Resource map
 
 The specialist capabilities behind the doctrine in SKILL.md, with a one-line
-trigger for each. Where a skill is installed locally it lives at
-`~/.agents/skills/<name>/SKILL.md` or `~/.claude/skills/<name>/SKILL.md` —
-read that file for full depth. Where it is not installed, the description
-here is enough to know what to build or which equivalent to reach for.
+trigger for each.
+
+**This is an equipment list, not a checklist.** Per section 0 of SKILL.md, the
+standards are mandatory and the tools are not. You are not expected to invoke
+everything here, or anything here. Where a skill is installed locally it lives
+at `~/.agents/skills/<name>/SKILL.md` or `~/.claude/skills/<name>/SKILL.md` —
+read that file for full depth and prefer it, since it encodes more than a
+general pass does. Where it is not installed, read the entry as a
+specification: it names what that capability is responsible for, and you meet
+that responsibility with your own means. Never drop a requirement because the
+named tool is out of reach; say what you used instead.
 
 
 ### Design direction and audit

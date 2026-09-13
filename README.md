@@ -6,7 +6,10 @@ scroll/motion law, and the craft bar for building and refining web UI — plus a
 map of the specialist skills and tools that back it.
 
 It is written to be self-contained: an agent with none of the referenced
-skills installed can still work from it.
+skills installed can still work from it. The standards it sets are mandatory;
+the specific skills and services it names are one good way to meet them, not a
+checklist. An agent with its own motion, typography, research, or asset
+capability is expected to use it and hold the same bar.
 
 ## Install
 
